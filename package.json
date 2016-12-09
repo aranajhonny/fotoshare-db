@@ -1,0 +1,24 @@
+{
+  "name": "fotoshare",
+  "version": "1.0.0",
+  "description": "a foto shared",
+  "main": "index.js",
+  "author": "@aranajhonny",
+  "license": "MIT",
+  "dependencies": {
+    "ava": "^0.17.0",
+    "babel-eslint": "^7.1.1",
+    "co": "^4.6.0",
+    "rethinkdb": "^2.3.3",
+    "standard": "^8.6.0",
+    "uuid-base62": "^0.1.0"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "ava test",
+    "start": "yarn lint && yarn test"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
