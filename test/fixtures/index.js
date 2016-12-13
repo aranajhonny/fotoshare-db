@@ -5,7 +5,7 @@ const uuid = require('uuid-base62')
 const fixtures = {
   getImage () {
     return {
-      descripcion: 'am #awesome picture',
+      description: 'an #awesome picture with #tags #platzi',
       url: `https://platzigram.test/${uuid.v4()}.jpg`,
       likes: 0,
       liked: false,
