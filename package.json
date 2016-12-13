@@ -18,7 +18,7 @@
   },
   "scripts": {
     "lint": "standard --fix",
-    "test": "ava test",
+    "test": "ava test --verbose",
     "start": "yarn lint && yarn test",
     "babel": "babel index.js > out.js"
   },
